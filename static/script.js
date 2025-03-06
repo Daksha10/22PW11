@@ -21,8 +21,8 @@ function getWeather(){
             document.getElementById("weather-result").innerHTML=`
             <h3 style="color:cadetblue;">Weather Forecast:</h3>
             <p><strong>City :</strong>${ data.city }</p>
-            <p><strong>Temperature :</strong>${ data.temperature }</p>
-            <p><strong>Humidity :</strong>${ data.humidity }</p>
+            <p><strong>Temperature :</strong>${ data.temperature }°C</p>
+            <p><strong>Humidity :</strong>${ data.humidity }%</p>
             <p><strong>Description :</strong>${ data.description }</p>
             `;
         }
